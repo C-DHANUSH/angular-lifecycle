@@ -1,0 +1,4 @@
+<h2>Parent Component</h2>
+<input [(ngModel)]="parentData" placeholder="Type something"/>
+<app-onchange-child [data]="parentData"></app-onchange-child>
+<app-docheck [value]="parentData"></app-docheck>
